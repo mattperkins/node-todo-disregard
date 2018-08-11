@@ -5,6 +5,6 @@
 ## nodemon app.js
 
 # ENDPOINTS 
-## localhost: 
+## localhost:3000/todo
 
 # DEPLOY 
