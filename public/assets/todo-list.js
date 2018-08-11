@@ -3,7 +3,7 @@ $(document).ready(function () {
   var item = $('form input')
   var todo = { item: item.val() }
 
-  $ajax({
+  $.ajax({
    type: 'POST',
    url: '/todo',
    data: todo,
