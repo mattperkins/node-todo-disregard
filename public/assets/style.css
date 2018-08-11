@@ -1,3 +1,6 @@
+*{
+ box-sizing: border-box;
+}
 body{
  background-color: #0d1521;
  font-family: tahoma;
@@ -7,9 +10,8 @@ body{
  position: relative;
  width: 95%;
  background-color: #090d13;
- margin: 0 auto;
+ margin: 20px auto 0;
  padding: 20px;
- box-sizing: border-box;
 }
 #todo-table form:after{
  margin: 0;
@@ -17,22 +19,23 @@ body{
  display: block;
  clear: both;
 }
+input, button{
+ display: block;
+}
 input[type="text"]{
- width: 70%;
+ width: 100%;
  padding: 20px;
  background-color: #181c22;
  border: 0;
- float: left;
  font-size: 20px;
  color: #989898;
+ text-align: center;
 }
 button{
  padding: 20px;
- width: 30%;
- float: left;
+ width: 100%;
  background-color: #23282e;
  border: 0;
- box-sizing: border-box;
  color:#fff;
  cursor: pointer;
  font-size: 20px;
@@ -45,7 +48,6 @@ ul{
 li{
  width: 100%;
  padding: 20px;
- box-sizing: border-box;
  font-family: arial;
  font-size: 20px;
  cursor: pointer;
