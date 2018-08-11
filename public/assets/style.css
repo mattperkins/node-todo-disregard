@@ -5,9 +5,11 @@ body{
  background-color: #0d1521;
  font-family: tahoma;
  color: #989898;
+ text-align: center;
 }
 #todo-table{
  position: relative;
+ max-width: 600px;
  width: 95%;
  background-color: #090d13;
  margin: 20px auto 0;
@@ -56,9 +58,4 @@ li{
 li:hover{
  text-decoration: line-through;
  background-color: rgba(0,0,0,0.2);
-}
-h1{
- background: url(/logo.png) no-repeat center;
- margin-bottom: 0;
- text-indent: -10000px;
 }
