@@ -7,7 +7,7 @@ module.exports = function (app) {
 
  })
 
- app.delete('/todo', function (req, res) {
+ app.delete('/todo/:item', function (req, res) {
 
  })
 
