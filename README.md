@@ -1,3 +1,6 @@
+# DELETE functionality and ajax conflict possibly based on legacy bug in jquery 
+# Project abandoned
+
 # INSTALL 
 ## yarn 
 
