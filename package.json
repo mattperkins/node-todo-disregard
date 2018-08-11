@@ -1,0 +1,20 @@
+{
+ "name": "node-todo-ninj",
+ "version": "1.0.0",
+ "description": "Another todo app - as if we need one?!",
+ "main": "app.js",
+ "scripts": {
+  "start": ""
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/mattperkins/node-todo-ninj.git"
+ },
+ "keywords": [],
+ "author": "DORMshed",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/mattperkins/node-todo-ninj/issues"
+ },
+ "homepage": "https://github.com/mattperkins/node-todo-ninj#readme"
+}
